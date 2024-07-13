@@ -51,7 +51,7 @@ char* frequencySort(char* s) {
 }
 
 int main() {
-    char str[] = "RILmT0oZF8";
+    char str[] = "abcdee";
     char* sortedStr = frequencySort(str);
     printf("Sorted by frequency: %s\n", sortedStr);
     free(sortedStr); // Remember to free the allocated memory
