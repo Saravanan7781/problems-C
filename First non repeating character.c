@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 
+
 int firstUniqChar(char* s) {
     int len = strlen(s);
     int result =0;
