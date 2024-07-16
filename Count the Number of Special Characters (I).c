@@ -6,11 +6,11 @@ int numberOfSpecialChars(char* word) {
   int upper[26] ={0}; 
     for(int i=0;i<len;i++){
         if(word[i]>='a' && word[i]<='z'){
-            // printf("%d ",word[i]-'a');
+          
             lower[word[i]-'a']++;
         }
         else if(word[i]>='A' && word[i]<='Z'){
-            // printf("%c ",word[i]-'A');
+          
             upper[word[i]-'A']++;
         }
     }
